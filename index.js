@@ -6,7 +6,6 @@ app.listen(3002, ()=>{
 })
 
 
-
 app.get("/",(req,res)=>{
     res.status(200).send("welcome to port 3002")
 })
